@@ -1,0 +1,152 @@
+html * {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 1800000px;
+}
+
+#box-frame {
+  width: 80%;
+  height: 500px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.59);
+  border: 0.01px solid rgb(231, 231, 231);
+  left: 50%;
+  margin-left: -40%;
+}
+
+
+.bar-un {
+  margin-top: 12px;
+  display: inline-block;
+}
+.logo {
+margin-left: 30px;
+display: inline-block;
+}
+.ask {
+  position: absolute;
+  cursor: pointer;
+  right: 40px;
+  top:0px;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(29, 205, 161);
+  color: white;
+}
+
+.login-s {
+  position: absolute;
+  cursor: pointer;
+  right: 150px;
+  top:0px;
+  width: 98px;
+  height: 33px;
+  line-height: 35px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(29, 205, 161);
+  border: 1px rgb(29, 205, 161) solid;
+}
+
+.login {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(29, 205, 161);
+  border: 1px grey;
+  color: white;
+  left: 50%;
+  margin-left: -90px;
+  cursor: pointer;
+}
+
+.s-ani:hover {
+  box-shadow: 0px 0px 20px -10px black;
+}
+
+
+.back-img {
+  filter: hue-rotate(0deg);
+  position: fixed;
+  background-color:rgba(255, 255, 255, 0.6);
+  width: 100%;
+  background-size: 100vw;
+  height: auto;
+}
+
+.bar {
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  height: 0px;
+  background-color: rgba(255, 255, 255, 0.6);
+  left: 0px;
+  top:0px;
+  border-bottom: 0.1px solid rgb(231, 231, 231);
+  z-index: 2;
+}
+
+.background {
+  width: 100%;
+  height: 150vh;
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: -1;
+}
+
+.cir {
+  width: 300px;
+  z-index: -1;
+  height: 300px;
+  position: absolute;
+  background-color: rgb(123, 222, 197);
+}
+
+.main {
+  margin-top: 150px;
+  position: relative;
+}
+
+.ani {transition: 0.8s;}
+.ce {text-align: center;}
+.ri {text-align: right;}
+.le {text-align: left;}
+.b1 {font-weight: 100}
+.b2 {font-weight: 200}
+.b3 {font-weight: 300}
+.b4 {font-weight: 400}
+.b5 {font-weight: 500}
+.b6 {font-weight: 600}
+.b7 {font-weight: 700}
+.b8 {font-weight: 800}
+.b9 {font-weight: 900}
+.f1 {font-size: 10px;}
+.f2 {font-size: 15px;}
+.f3 {font-size: 20px;}
+.f4 {font-size: 25px;}
+.f5 {font-size: 30px;}
+.f6 {font-size: 35px;}
+.f7 {font-size: 40px;}
+
+
+.shadow {
+  box-shadow: 0px 0px 20px -15px black;
+}
+
+.blur {
+  backdrop-filter:blur(130px);
+  -webkit-backdrop-filter: blur(130px);
+}
+
+.r1 {border-radius: 5px;}
+.r2 {border-radius: 10px;}
+.r3 {border-radius: 15px;}
+
+.rf {border-radius: 100%;}
